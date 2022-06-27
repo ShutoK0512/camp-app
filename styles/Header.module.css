@@ -1,0 +1,23 @@
+.header {
+  @apply flex items-center;
+
+  background-color: #1f1f1f;
+  color: white;
+  height: 50px;
+}
+
+.nav {
+  @apply flex justify-between container mx-auto;
+}
+
+.wrapper {
+  @apply flex;
+}
+
+.wrapper li {
+  @apply mr-10;
+}
+
+.wrapper li:hover {
+  @apply text-slate-200;
+}

@@ -1,0 +1,26 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @apply text-8xl text-gray-100 drop-shadow-md;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 850px;
+  }
+
+  .heading1 {
+    @apply text-9xl;
+  }
+}
